@@ -1,0 +1,8 @@
+<form class="poke-form" fxLayout="row" fxLayoutAlign="center center" fxFlex="0 1 calc(33.3% - 11px)" fxFlex.lt-md="0 1 calc(50% - 11px)"
+fxFlex.lt-sm="100%">
+    <mat-form-field class="poke-mat-form" appearance="fill">
+        <mat-label>Pokémon</mat-label>
+        <input type="text" matInput #input (keyup)="search(input.value)">
+    </mat-form-field>
+    <img src="../../../../assets/icons/search.png">
+</form>

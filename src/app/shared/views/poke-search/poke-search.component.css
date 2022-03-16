@@ -1,0 +1,13 @@
+.poke-form {
+  min-width: 320px;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.poke-mat-form {
+  width: 90%;
+}

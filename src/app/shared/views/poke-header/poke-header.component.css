@@ -1,0 +1,10 @@
+.poke-logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.poke-logo img{
+    min-width: 200px;
+    width: 15%;
+}

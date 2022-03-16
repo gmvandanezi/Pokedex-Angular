@@ -1,0 +1,67 @@
+.card-pokemon {
+  background-image: url("../../../../../src/assets/img/bg-poke.png");
+  background-size: cover;
+  max-width: 340px;
+  height: 240px;
+  margin: 20px;
+}
+
+.pokemon_status h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: capitalize;
+  color: rgb(231, 170, 0);
+}
+
+.pokemon_status ul {
+  display: block;
+}
+
+li {
+  background: rgb(231, 170, 0);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 60px;
+  margin-left: -40px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.poke_image {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 110px;
+  right: 20px;
+  bottom: 45px;
+}
+
+.poke-btn-detail{
+  width: 150px;
+  position: absolute;
+  display: flex;
+  bottom: -10px;
+  height: 90px;
+  left: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+section img{
+  width: 100px;
+}
+
+
+section {
+  display: table;
+}
